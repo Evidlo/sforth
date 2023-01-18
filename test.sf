@@ -1,0 +1,5 @@
+"i_am_a_string" print
+{ "i_am_repeated_3x" print } 3 repeat
+3 2 mul print
+{ 3 2 } 1 repeat div print
+{ 3 3 repeat } print
