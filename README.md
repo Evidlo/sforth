@@ -8,8 +8,8 @@ This is a dumb forth implementation I wrote in an hour without doing any researc
 - *int1* *int2* **div** - divide two numbers
 - *N* **dup** - duplicate the last *N* items on the stack
 - **printstack** - print the entire stack
-- *N* repeat - repeat the last item on the stack *N* times
-- *print* - print the last item on the stack
+- *N* **repeat** - repeat the last item on the stack *N* times
+- **print** - print the last item on the stack
 
 Strings must be surrounded by `"` and cannot contain spaces.  Symbol groups must be surrounded by `{}`
 
